@@ -1,4 +1,4 @@
-# TCP Web Server
+# Project Specifications: TCP Web Server
 
 Using socket programming, this task involves implementing a simple but complete web server that listens on **port 5012**. The server is designed to handle multiple file types, provide localized content (English/Arabic), and manage specific HTTP status codes.
 
