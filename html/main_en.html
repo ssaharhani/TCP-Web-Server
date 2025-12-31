@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   ENCS3320-T1243
+  </title>
+  <link href="css/combined_style.css" rel="stylesheet"/>
+ </head>
+ <body id="top">
+  <h1 class="welcome-header">
+   Welcome to our Computer Networks Webserver
+  </h1>
+  <nav class="navbar">
+   <a href="#search-section">
+    Search
+   </a>
+   <a href="#members-section">
+    Members
+   </a>
+   <a href="#external-resources-section">
+    External Resources
+   </a>
+   <a href="#top">
+    Back to Top
+   </a>
+  </nav>
+  <div class="hero-section">
+    <h2 dir="rtl">
+        ﴿ وَلاَ تَحْسَبَنَّ اللَّهَ غَافِلاً عَمَّا يَعْمَلُ الظَّالِمُونَ إِنَّمَا يُؤَخِّرُهُمْ لِيَوْمٍ تَشْخَصُ فِيهِ الأَبْصَارُ ﴾
+    </h2>
+   <p>
+    (And never think that Allah is unaware of what the wrongdoers do. He only delays them for a Day when eyes will stare [in horror].) - Quran 14:42
+   </p>
+  </div>
+  <section class="gaza-crisis-section">
+   <h2>
+    The Ongoing Humanitarian Crisis in Gaza
+   </h2>
+   <div class="content-table">
+    <div class="content-row">
+     <div class="content-cell">
+      <img alt="Gaza humanitarian crisis" src="/imgs/gaza_humanitarian.jpg"/>
+     </div>
+     <div class="content-cell">
+      <h3>
+       The Humanitarian Crisis in Gaza Deepens
+      </h3>
+      <p>
+       <em>
+        Gaza continues to face an unprecedented humanitarian catastrophe as the crisis enters its second year. The scale of suffering has reached catastrophic levels, with our people enduring unimaginable hardships daily.
+       </em>
+      </p>
+     </div>
+    </div>
+    <div class="content-row">
+     <div class="content-cell">
+      <h3>
+       Gaza's Devastating Human Toll
+      </h3>
+      <p>
+       The human toll has been devastating.
+       <strong>
+        At least 59,219 Palestinians have reportedly been killed in Gaza and 143,045 have been injured
+       </strong>
+       between October 7, 2023, and July 23, 2025, according to Gaza's Ministry of Health. Among the identified fatalities,
+       <em>
+        26,655 were children and civilians
+       </em>
+       , representing entire families wiped out in moments.
+      </p>
+     </div>
+     <div class="content-cell">
+      <img alt="Displaced families in Gaza" src="../imgs/gaza_displacement.jpg"/>
+     </div>
+    </div>
+    <div class="content-row">
+     <div class="content-cell">
+      <img alt="Water scarcity in Gaza" src="../imgs/gaza_water_crisis.jpg"/>
+     </div>
+     <div class="content-cell">
+      <h3>
+       Gaza's Water Scarcity
+      </h3>
+      <p>
+       Access to clean water has become a luxury that most Gazans cannot afford.
+       <strong>
+        95% of the population are unable to access safe water,
+       </strong>
+       forcing families to drink contaminated water that threatens their health and lives.
+      </p>
+      <p>
+       Some displaced people are
+       <em>
+        surviving on just 3% of minimum daily water needs
+       </em>
+       . Children and elderly are particularly vulnerable, with waterborne diseases spreading rapidly through overcrowded shelters.
+      </p>
+     </div>
+    </div>
+    <div class="content-row">
+     <div class="content-cell">
+      <h3>
+       Systematic Destruction: Gaza's Hospitals and Healthcare
+      </h3>
+      <p>
+       The healthcare infrastructure has been systematically destroyed. Major hospitals including
+       <strong>
+        Kamal Adwan Hospital and Indonesia Hospital
+       </strong>
+       have been severely damaged or rendered non-functional. Healthcare workers struggle to provide even basic medical care without adequate supplies, fuel, or equipment.
+      </p>
+      <p>
+       <em>
+        The health system is at breaking point
+       </em>
+       amidst acute shortages of medical supplies, fuel, and shelter. Pregnant women give birth without proper medical care, and children suffer from preventable diseases that could be easily treated under normal circumstances.
+      </p>
+     </div>
+     <div class="content-cell">
+      <img alt="Temporary shelters in Gaza" src="../imgs/hospital_destruction.jpg"/>
+     </div>
+    </div>
+   </div>
+   <div class="full-width-text">
+    <h3>
+     Starvation as a Weapon of War
+    </h3>
+    <p>
+     The deliberate restriction of aid has created conditions of famine.
+     <em>
+      Since March 2025, Israel has imposed an official blockade
+     </em>
+     , with Defense Minister declaring that "No humanitarian aid will enter Gaza." The consequences have been devastating:
+    </p>
+    <ol>
+     <li>
+      <strong>
+       851 people were killed
+      </strong>
+      and at least 5,634 injured while trying to access food supplies since May 27, 2025
+     </li>
+     <li>
+      <strong>
+       Mass casualty events
+      </strong>
+      have occurred at aid distribution sites, with over 21 separate incidents affecting toddlers, teenagers, elderly, and mothers
+     </li>
+     <li>
+      <strong>
+       Acute malnutrition
+      </strong>
+      is spreading rapidly among children and vulnerable populations
+     </li>
+     <li>
+      <strong>
+       Families go days without food
+      </strong>
+      , watching their children waste away from hunger
+     </li>
+    </ol>
+    <h3>
+     The Fear That Never Leaves
+    </h3>
+    <p>
+     Every day brings new trauma for our people in Gaza. Parents watch helplessly as their children ask for food they cannot provide. Families huddle together, never knowing if they will survive the night. The psychological toll is immeasurable -
+     <em>
+      an entire population living in constant fear of death
+     </em>
+     .
+    </p>
+   </div>
+  </section>
+  <section id="search-section">
+   <h2>
+    Searching for Their Stories...
+   </h2>
+   <h3>
+    Search for Gaza Event
+   </h3>
+   <form action="/event" method="get">
+    <input name="keyword" placeholder="Enter keyword..." required="" type="text"/>
+    <select name="type">
+     <option value="text">
+      Text
+     </option>
+     <option value="image">
+      Image
+     </option>
+     <option value="video">
+      Video
+     </option>
+    </select>
+    <button type="submit">
+     Search
+    </button>
+   </form>
+  </section>
+  <section class="actions-section">
+   <h2>
+    Actions You Can Do Right Now
+   </h2>
+   <div class="actions-list-container">
+    <div class="action-card">
+        <span class="icon">🤲</span>
+        <h3>Make Du'a for Them</h3>
+        <p>Lift them in your prayers, for it is the most powerful weapon. Ask for their safety, patience, and victory.</p>
+    </div>
+    <div class="action-card">
+        <span class="icon">💰</span>
+        <h3>Give Donations</h3>
+        <p>Your financial support is a lifeline. Donate to trusted organizations providing essential aid on the ground.</p>
+    </div>
+    <div class="action-card">
+        <span class="icon">🚫</span>
+        <h3>Support Boycott Efforts</h3>
+        <p>Use your consumer power to make a stand. Boycott products and companies that support the occupation.</p>
+    </div>
+    <div class="action-card">
+        <span class="icon">🗣️</span>
+        <h3>Influence from Your Position</h3>
+        <p>Leverage your authority, whether as a parent, teacher, or public servant, to raise awareness and advocate for their rights.</p>
+    </div>
+    <div class="action-card">
+        <span class="icon">🕌</span>
+        <h3>Strengthen Your Faith</h3>
+        <p>Break away from your sins. Our collective strength comes from our faith and righteousness. Purify your heart for their sake.</p>
+    </div>
+ </section>
+ <section class="gaza-speaks-network">
+    <h2>What if Gaza Talked in Networks?</h2>
+    <div class="network-message">
+      <pre>
+  When it returned <span class="code">200</span> — it was still misunderstood.
+  When it sent <span class="code">307</span> — it was redirected, forgotten, misplaced.
+  When all it got was <span class="code">400</span> — no one understood the request.
+  
+  Gaza did everything right.
+  It made the request,
+  it waited for the response —
+  but nothing came back.
+  
+  Maybe the headers were filtered,
+  maybe the payload too heavy with pain,
+  or maybe the world’s servers
+  just weren't listening.
+  
+  Our small packets —
+  crushed by congestion,
+  lost in the noise,
+  timed out before they ever reached the gateway.
+  
+  But still, Gaza speaks networks.
+  And it keeps sending the request.
+
+  May Allah relieve their suffering and reward them with the best
+      </pre>
+    </div>
+  </section>
+  
+</section>
+</section>
+</section>
+
+</section>
+  </section>
+  <section id="members-section">
+   <h2>
+    Our Team Members
+   </h2>
+   <div class="team">
+    <div class="member-box">
+     <div class="member-image-container">
+      <img alt="Amal Alwahidi" src="../imgs/amal.png"/>
+      <h3>
+       Amal Alwahidi
+      </h3>
+      <h4 class="id-text">
+       ID: 1213085
+      </h4>
+     </div>
+     <div class="member-info">
+      <h4>
+       Projects
+      </h4>
+      <ul>
+       <li>
+        Diabetes AI prediction Model
+       </li>
+       <li>
+        Gym DBMS
+       </li>
+       <li>
+        Flight management system
+       </li>
+       <li>
+        Data wrangling project
+       </li>
+      </ul>
+      <h4>
+       Skills
+      </h4>
+      <p>
+       Python, C, Java, Data analytics, SQL
+      </p>
+      <h4>
+       Hobbies
+      </h4>
+      <p>
+       Reading, Drawing, Writing
+      </p>
+     </div>
+    </div>
+    <div class="member-box">
+     <div class="member-image-container">
+      <img alt="Sahar Atari" src="../imgs/sahar.png"/>
+      <h3>
+       Sahar Atari
+      </h3>
+      <h4 class="id-text">
+       ID: 1230971
+      </h4>
+     </div>
+     <div class="member-info">
+        <h4>Projects</h4>
+        <ul>
+            <li>Adaptive Traffic Management System Research</li>
+            <li>Kinatic-to-Electric power Gym Planning</li>
+            <li>Task Management System</li>
+            <li>Single Cycle Proccessor Design</li>
+        </ul>
+        <h4>Skills</h4>
+        <p>JavaScript, Python, C++, SQL, Design, UI/UX Principles</p>
+        <h4>Hobbies</h4>
+        <p>Reading, Digital Art, Writing</p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <footer id="external-resources-section">
+   <h3>
+    External Resources
+   </h3>
+   <ul>
+    <li>
+     <a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank">
+      Kurose Textbook
+     </a>
+    </li>
+    <li>
+     <a href="https://ritaj.birzeit.edu/" target="_blank">
+      Ritaj Website
+     </a>
+    </li>
+   </ul>
+  </footer>
+  <script>
+   document.querySelectorAll('nav.navbar a').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+     e.preventDefault();
+     document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+     });
+    });
+   });
+  </script>
+ </body>
+</html>
